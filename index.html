@@ -170,14 +170,19 @@
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
 
-                <div class="work__container bd-grid">
+                <div class="work__container bd-grid" style=”display: flex; flex-direction: column;“>
                     <a href="" class="work__img" style="width: 600px;height: 165px;">
                         <img src="assets/img/logo.png" alt="">
                     </a>
                     <br>
-                    <a href="" class="work__img" style="width: 600px;height: 165px;">
-                        <img src="assets/img/Fleet.png" alt="">
-                    </a>
+                    <a href="" class="work__img" style="width: 600px;/* height: 165px; */visibility: visible;opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;/* object-fit: contain; */display: flex;align-items: center;justify-content: center;" data-sr-id="21">
+                        <img src="assets/img/Fleet.png" alt="" style="
+                        height: 165px;
+                        object-fit: contain;
+                        display: flex;
+                        justify-content: center;
+                    ">
+                    </a> 
                 </div>
             </section>
 
