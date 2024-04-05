@@ -560,6 +560,7 @@ img {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+  margin-top: 5px;
 }
   .skill-icons--linkedin {
   display: inline-block;
@@ -589,6 +590,7 @@ img {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+  margin-top: 5.5px;
 }
   
 .icons8-github { 
